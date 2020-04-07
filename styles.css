@@ -1,0 +1,60 @@
+*, ::before, ::after {box-sizing: border-box;}
+
+/* .background{
+    background-image: url("backroundimg.jpg");
+    height:100vh;
+    width:2300%;
+    background-size:cover;
+} */
+.cursor{
+    cursor:url('about.png'),auto;
+}
+body {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    /* cursor:pointer; */
+    /* background-color: midnightblue; */
+    background-image: url('backroundimg.jpg');
+    /* cursor:url('about.png'),auto; */
+}
+.intro{
+    font-size: 10vw;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    color: lightgreen;
+    margin-top:0;
+    margin-left:0;  
+    /* cursor:url('about.png'),auto; */
+}
+#word {
+    font-size: 10vw;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    color: lightgreen;
+    text-align: left;
+    opacity:0;
+    /* cursor:url('about.png'),auto; */
+}
+#word:hover{
+    opacity:1;
+    cursor:url('about.png'),auto;
+
+}
+#sentence {
+    font-size: 10vw;
+    font-family:'Courier New', Courier, monospace, sans-serif;
+    color: lightcoral;
+    text-align: left;
+    opacity:0;
+    /* cursor:url('about.png'),auto; */
+}
+#sentence:hover{
+    opacity:1;
+
+}
+ /* @font-face {
+    font-family: 'MyWebFont';
+    src: url('webfont.ttf')  format('truetype'); */ */
